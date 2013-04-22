@@ -1,0 +1,7 @@
+    Windows Registry Editor Version 5.00
+
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\VS2005 WebServer]
+    @="IIS Express Here"
+
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\VS2005 WebServer\command]
+    @="C:\\Program Files (x86)\\IIS Express\\iisexpress.exe /path:\"%1\""
