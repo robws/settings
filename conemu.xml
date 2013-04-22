@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2013-04-20 17:49:31">
-			<value name="ColorTable00" type="dword" data="00000000"/>
-			<value name="ColorTable01" type="dword" data="00644100"/>
-			<value name="ColorTable02" type="dword" data="00008000"/>
-			<value name="ColorTable03" type="dword" data="00808000"/>
-			<value name="ColorTable04" type="dword" data="00000080"/>
-			<value name="ColorTable05" type="dword" data="00800080"/>
-			<value name="ColorTable06" type="dword" data="00008080"/>
-			<value name="ColorTable07" type="dword" data="00c0c0c0"/>
-			<value name="ColorTable08" type="dword" data="00808080"/>
-			<value name="ColorTable09" type="dword" data="00ff0000"/>
-			<value name="ColorTable10" type="dword" data="0076c587"/>
-			<value name="ColorTable11" type="dword" data="00ffff00"/>
-			<value name="ColorTable12" type="dword" data="00004bff"/>
-			<value name="ColorTable13" type="dword" data="00d78ce6"/>
-			<value name="ColorTable14" type="dword" data="0000ffff"/>
-			<value name="ColorTable15" type="dword" data="00ffffff"/>
-			<value name="ColorTable16" type="dword" data="00000000"/>
-			<value name="ColorTable17" type="dword" data="00644100"/>
-			<value name="ColorTable18" type="dword" data="00008000"/>
-			<value name="ColorTable19" type="dword" data="00808000"/>
-			<value name="ColorTable20" type="dword" data="00000080"/>
-			<value name="ColorTable21" type="dword" data="00800080"/>
-			<value name="ColorTable22" type="dword" data="00008080"/>
-			<value name="ColorTable23" type="dword" data="00c0c0c0"/>
-			<value name="ColorTable24" type="dword" data="00808080"/>
-			<value name="ColorTable25" type="dword" data="00ff0000"/>
-			<value name="ColorTable26" type="dword" data="0076c587"/>
-			<value name="ColorTable27" type="dword" data="00ffff00"/>
-			<value name="ColorTable28" type="dword" data="00004bff"/>
-			<value name="ColorTable29" type="dword" data="00d78ce6"/>
-			<value name="ColorTable30" type="dword" data="0000ffff"/>
-			<value name="ColorTable31" type="dword" data="00ffffff"/>
+		<key name=".Vanilla" modified="2013-04-22 13:50:46">
+			<value name="ColorTable00" type="dword" data="00362b00"/>
+			<value name="ColorTable01" type="dword" data="00423607"/>
+			<value name="ColorTable02" type="dword" data="00756e58"/>
+			<value name="ColorTable03" type="dword" data="00837b65"/>
+			<value name="ColorTable04" type="dword" data="002f32dc"/>
+			<value name="ColorTable05" type="dword" data="00c4716c"/>
+			<value name="ColorTable06" type="dword" data="00164bcb"/>
+			<value name="ColorTable07" type="dword" data="00d5e8ee"/>
+			<value name="ColorTable08" type="dword" data="00a1a193"/>
+			<value name="ColorTable09" type="dword" data="00d28b26"/>
+			<value name="ColorTable10" type="dword" data="00009985"/>
+			<value name="ColorTable11" type="dword" data="0098a12a"/>
+			<value name="ColorTable12" type="dword" data="00969483"/>
+			<value name="ColorTable13" type="dword" data="008236d3"/>
+			<value name="ColorTable14" type="dword" data="000089b5"/>
+			<value name="ColorTable15" type="dword" data="00e3f6fd"/>
+			<value name="ColorTable16" type="dword" data="00362b00"/>
+			<value name="ColorTable17" type="dword" data="00423607"/>
+			<value name="ColorTable18" type="dword" data="00756e58"/>
+			<value name="ColorTable19" type="dword" data="00837b65"/>
+			<value name="ColorTable20" type="dword" data="002f32dc"/>
+			<value name="ColorTable21" type="dword" data="00c4716c"/>
+			<value name="ColorTable22" type="dword" data="00164bcb"/>
+			<value name="ColorTable23" type="dword" data="00d5e8ee"/>
+			<value name="ColorTable24" type="dword" data="00a1a193"/>
+			<value name="ColorTable25" type="dword" data="00d28b26"/>
+			<value name="ColorTable26" type="dword" data="00009985"/>
+			<value name="ColorTable27" type="dword" data="0098a12a"/>
+			<value name="ColorTable28" type="dword" data="00969483"/>
+			<value name="ColorTable29" type="dword" data="008236d3"/>
+			<value name="ColorTable30" type="dword" data="000089b5"/>
+			<value name="ColorTable31" type="dword" data="00e3f6fd"/>
 			<value name="ExtendColors" type="hex" data="00"/>
 			<value name="ExtendColorIdx" type="hex" data="0e"/>
 			<value name="TextColorIdx" type="hex" data="10"/>
@@ -67,7 +67,7 @@
 			<value name="DefaultTerminalNoInjects" type="hex" data="01"/>
 			<value name="DefaultTerminalConfirm" type="hex" data="02"/>
 			<value name="DefaultTerminalApps" type="string" data="explorer.exe|totalcmd64.exe"/>
-			<value name="ProcessAnsi" type="hex" data="00"/>
+			<value name="ProcessAnsi" type="hex" data="01"/>
 			<value name="UseClink" type="hex" data="01"/>
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
@@ -79,7 +79,7 @@
 			<value name="StoreTaskbarCommands" type="hex" data="01"/>
 			<value name="CmdLineHistory" type="multi"><line data="cmd -cur_console:n"/></value>
 			<value name="SingleInstance" type="hex" data="01"/>
-			<value name="Multi" type="hex" data="00"/>
+			<value name="Multi" type="hex" data="01"/>
 			<value name="Multi.ShowButtons" type="hex" data="01"/>
 			<value name="Multi.NumberInCaption" type="hex" data="00"/>
 			<value name="Multi.CloseConfirm" type="hex" data="00"/>
@@ -89,7 +89,7 @@
 			<value name="Multi.UseNumbers" type="hex" data="00"/>
 			<value name="Multi.UseWinTab" type="hex" data="00"/>
 			<value name="Multi.AutoCreate" type="hex" data="00"/>
-			<value name="Multi.LeaveOnClose" type="hex" data="01"/>
+			<value name="Multi.LeaveOnClose" type="hex" data="00"/>
 			<value name="Multi.HideOnClose" type="hex" data="00"/>
 			<value name="Multi.MinByEsc" type="hex" data="00"/>
 			<value name="MapShiftEscToEsc" type="hex" data="00"/>
@@ -110,12 +110,12 @@
 			<value name="FontItalic" type="hex" data="00"/>
 			<value name="Monospace" type="hex" data="01"/>
 			<value name="BackGround Image show" type="hex" data="01"/>
-			<value name="BackGround Image" type="string" data="E:\downloads\darksiders_war_rides_2-wallpaper-1920x1200.jpg"/>
-			<value name="bgImageDarker" type="hex" data="33"/>
+			<value name="BackGround Image" type="string" data="C:\Dropbox\wallpapers\uyBa37t - Imgur.jpg"/>
+			<value name="bgImageDarker" type="hex" data="67"/>
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="01"/>
-			<value name="bgPluginAllowed" type="hex" data="00"/>
-			<value name="AlphaValue" type="hex" data="ff"/>
+			<value name="bgPluginAllowed" type="hex" data="01"/>
+			<value name="AlphaValue" type="hex" data="e8"/>
 			<value name="AlphaValueSeparate" type="hex" data="00"/>
 			<value name="AlphaValueInactive" type="hex" data="ff"/>
 			<value name="UserScreenTransparent" type="hex" data="00"/>
@@ -123,11 +123,11 @@
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd Width" type="dword" data="00000074"/>
-			<value name="ConWnd Height" type="dword" data="0000002b"/>
+			<value name="ConWnd Width" type="dword" data="00000077"/>
+			<value name="ConWnd Height" type="dword" data="0000001d"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="dword" data="00000215"/>
-			<value name="ConWnd Y" type="dword" data="00000138"/>
+			<value name="ConWnd X" type="dword" data="000000c4"/>
+			<value name="ConWnd Y" type="dword" data="00000000"/>
 			<value name="16bit Height" type="dword" data="00000000"/>
 			<value name="AutoSaveSizePos" type="hex" data="00"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
@@ -139,14 +139,14 @@
 			<value name="HideCaptionAlwaysFrame" type="hex" data="00"/>
 			<value name="HideCaptionAlwaysDelay" type="dword" data="000007d0"/>
 			<value name="HideCaptionAlwaysDisappear" type="dword" data="000007d0"/>
-			<value name="DownShowHiddenMessage" type="hex" data="01"/>
+			<value name="DownShowHiddenMessage" type="hex" data="00"/>
 			<value name="ConsoleFontName" type="string" data="Lucida Console"/>
 			<value name="ConsoleFontWidth" type="dword" data="00000003"/>
 			<value name="ConsoleFontHeight" type="dword" data="00000005"/>
 			<value name="DefaultBufferHeight" type="dword" data="000003e8"/>
 			<value name="AutoBufferHeight" type="hex" data="01"/>
 			<value name="CmdOutputCP" type="dword" data="00000000"/>
-			<value name="ComSpec.Type" type="hex" data="02"/>
+			<value name="ComSpec.Type" type="hex" data="00"/>
 			<value name="ComSpec.Bits" type="hex" data="00"/>
 			<value name="ComSpec.UpdateEnv" type="hex" data="00"/>
 			<value name="ComSpec.EnvAddPath" type="hex" data="01"/>
@@ -157,7 +157,7 @@
 			<value name="CTS.AutoCopy" type="hex" data="00"/>
 			<value name="CTS.EndOnTyping" type="hex" data="00"/>
 			<value name="CTS.EndOnKeyPress" type="hex" data="00"/>
-			<value name="CTS.Freeze" type="hex" data="00"/>
+			<value name="CTS.Freeze" type="hex" data="01"/>
 			<value name="CTS.SelectBlock" type="hex" data="01"/>
 			<value name="CTS.SelectText" type="hex" data="01"/>
 			<value name="CTS.ActMode" type="hex" data="02"/>
@@ -194,7 +194,7 @@
 			<value name="DisableMouse" type="hex" data="01"/>
 			<value name="RSelectionFix" type="hex" data="01"/>
 			<value name="MouseSkipActivation" type="hex" data="00"/>
-			<value name="MouseSkipMoving" type="hex" data="00"/>
+			<value name="MouseSkipMoving" type="hex" data="01"/>
 			<value name="FarHourglass" type="hex" data="01"/>
 			<value name="FarHourglassDelay" type="dword" data="000001f4"/>
 			<value name="Dnd" type="hex" data="00"/>
@@ -203,11 +203,11 @@
 			<value name="DropUseMenu" type="hex" data="00"/>
 			<value name="DragOverlay" type="hex" data="00"/>
 			<value name="DragShowIcons" type="hex" data="00"/>
-			<value name="DebugSteps" type="hex" data="00"/>
+			<value name="DebugSteps" type="hex" data="01"/>
 			<value name="DragPanel" type="hex" data="02"/>
 			<value name="DragPanelBothEdges" type="hex" data="00"/>
 			<value name="KeyBarRClick" type="hex" data="01"/>
-			<value name="StatusBar.Show" type="hex" data="00"/>
+			<value name="StatusBar.Show" type="hex" data="01"/>
 			<value name="StatusBar.Flags" type="dword" data="00000002"/>
 			<value name="StatusFontFace" type="string" data="Tahoma"/>
 			<value name="StatusFontCharSet" type="dword" data="00000000"/>
@@ -250,8 +250,8 @@
 			<value name="Tabs" type="hex" data="01"/>
 			<value name="TabsLocation" type="hex" data="00"/>
 			<value name="TabSelf" type="hex" data="01"/>
-			<value name="TabLazy" type="hex" data="00"/>
-			<value name="TabRecent" type="hex" data="00"/>
+			<value name="TabLazy" type="hex" data="01"/>
+			<value name="TabRecent" type="hex" data="01"/>
 			<value name="TabDblClick" type="dword" data="00000001"/>
 			<value name="TabsOnTaskBar" type="hex" data="00"/>
 			<value name="TaskBarOverlay" type="hex" data="01"/>
@@ -272,7 +272,7 @@
 			<value name="AdminShowShield" type="hex" data="01"/>
 			<value name="HideInactiveConsoleTabs" type="hex" data="00"/>
 			<value name="ShowFarWindows" type="hex" data="00"/>
-			<value name="TryToCenter" type="hex" data="01"/>
+			<value name="TryToCenter" type="hex" data="00"/>
 			<value name="CenterConsolePad" type="dword" data="00000000"/>
 			<value name="ShowScrollbar" type="hex" data="01"/>
 			<value name="ScrollBarAppearDelay" type="dword" data="000003e8"/>
@@ -327,7 +327,7 @@
 			<value name="Update.CheckOnStartup" type="hex" data="00"/>
 			<value name="Update.CheckHourly" type="hex" data="00"/>
 			<value name="Update.ConfirmDownload" type="hex" data="01"/>
-			<value name="Update.UseBuilds" type="hex" data="02"/>
+			<value name="Update.UseBuilds" type="hex" data="01"/>
 			<value name="Update.UseProxy" type="hex" data="00"/>
 			<value name="Update.Proxy" type="string" data=""/>
 			<value name="Update.ProxyUser" type="string" data=""/>
@@ -354,7 +354,7 @@
 			<value name="Multi.NewWindow" type="dword" data="00000000"/>
 			<value name="Multi.NewSplitV" type="dword" data="0010114f"/>
 			<value name="Multi.NewSplitH" type="dword" data="00101145"/>
-			<value name="Multi.NewAttach" type="dword" data="80808000"/>
+			<value name="Multi.NewAttach" type="dword" data="00005b47"/>
 			<value name="Multi.Next" type="dword" data="00005b51"/>
 			<value name="Multi.NextShift" type="dword" data="00105b51"/>
 			<value name="Multi.Recreate" type="dword" data="00005bc0"/>
@@ -363,7 +363,7 @@
 			<value name="Multi.Close" type="dword" data="00005b2e"/>
 			<value name="CloseTabKey" type="dword" data="00125b2e"/>
 			<value name="CloseGroupKey" type="dword" data="00000000"/>
-			<value name="TerminateProcessKey" type="dword" data="00001157"/>
+			<value name="TerminateProcessKey" type="dword" data="00105b2e"/>
 			<value name="DuplicateRootKey" type="dword" data="00000000"/>
 			<value name="CloseConEmuKey" type="dword" data="00005b73"/>
 			<value name="Multi.Rename" type="dword" data="00005d52"/>
@@ -478,34 +478,34 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-				<key name="Tasks" modified="2013-04-20 17:49:31">
+				<key name="Tasks" modified="2013-04-22 13:50:47">
 				<value name="Count" type="dword" data="00000003"/>
-						<key name="Task1" modified="2013-04-20 17:49:31">
+						<key name="Task1" modified="2013-04-22 13:50:47">
 					<value name="Name" type="string" data="{powershell}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="&gt;*powershell.exe"/>
 					<value name="Active" type="dword" data="00000001"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-						<key name="Task2" modified="2013-04-20 17:49:31">
+						<key name="Task2" modified="2013-04-22 13:50:47">
 					<value name="Name" type="string" data="{msbuild}"/>
 					<value name="GuiArgs" type="string" data="/dir &quot;C:\Windows\Microsoft.NET\Framework64\v4.0.30319&quot;"/>
 					<value name="Cmd1" type="string" data="&gt;*cmd"/>
 					<value name="Active" type="dword" data="00000001"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-						<key name="Task3" modified="2013-04-20 17:49:31">
+						<key name="Task3" modified="2013-04-22 13:50:47">
 					<value name="Name" type="string" data="{farmanager}"/>
-					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="&gt;*c:\Program Files\farmanager\far.exe"/>
+					<value name="GuiArgs" type="string" data="/dir &quot;c:\Program Files\farmanager&quot;"/>
+					<value name="Cmd1" type="string" data="&gt;*far.exe"/>
 					<value name="Active" type="dword" data="00000001"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
 			</key>
-				<key name="Apps" modified="2013-04-20 17:49:31">
+				<key name="Apps" modified="2013-04-22 13:50:47">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-				<key name="Colors" modified="2013-04-20 17:49:31">
+				<key name="Colors" modified="2013-04-22 13:50:47">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 		</key>
