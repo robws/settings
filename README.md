@@ -1,6 +1,7 @@
 settings
 ========
 
-My settings for different apps
+My settings for different apps.
 
-ConEmu
+ConEmu - the only terminal emulator for Windows that matters
+![](http://i.imgur.com/PvmJaOD.png)
