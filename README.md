@@ -1,7 +1,5 @@
 settings
 ========
 
-My settings for different apps.
+My customized settings for my everyday apps. Plus some useful registry tweaks.
 
-ConEmu - the only terminal emulator for Windows that matters
-![](http://i.imgur.com/PvmJaOD.png)
