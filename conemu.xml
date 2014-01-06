@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2013-10-22 18:39:18" build="131020">
-			<value name="ColorTable00" type="dword" data="003f3f3f"/>
-			<value name="ColorTable01" type="dword" data="00af6464"/>
-			<value name="ColorTable02" type="dword" data="00008000"/>
-			<value name="ColorTable03" type="dword" data="00808000"/>
-			<value name="ColorTable04" type="dword" data="00232333"/>
-			<value name="ColorTable05" type="dword" data="00aa50aa"/>
-			<value name="ColorTable06" type="dword" data="0000dcdc"/>
-			<value name="ColorTable07" type="dword" data="00aec8c8"/>
-			<value name="ColorTable08" type="dword" data="008080c0"/>
-			<value name="ColorTable09" type="dword" data="00ffafaf"/>
-			<value name="ColorTable10" type="dword" data="007f9f7f"/>
-			<value name="ColorTable11" type="dword" data="00d3d08c"/>
-			<value name="ColorTable12" type="dword" data="007071e3"/>
-			<value name="ColorTable13" type="dword" data="00c880c8"/>
-			<value name="ColorTable14" type="dword" data="00afdff0"/>
+		<key name=".Vanilla" modified="2014-01-06 21:14:32" build="140104">
+			<value name="ColorTable00" type="dword" data="00222827"/>
+			<value name="ColorTable01" type="dword" data="009e5401"/>
+			<value name="ColorTable02" type="dword" data="0004aa74"/>
+			<value name="ColorTable03" type="dword" data="00a6831a"/>
+			<value name="ColorTable04" type="dword" data="003403a7"/>
+			<value name="ColorTable05" type="dword" data="009c5689"/>
+			<value name="ColorTable06" type="dword" data="0049b6b6"/>
+			<value name="ColorTable07" type="dword" data="00cacaca"/>
+			<value name="ColorTable08" type="dword" data="007c7c7c"/>
+			<value name="ColorTable09" type="dword" data="00f58303"/>
+			<value name="ColorTable10" type="dword" data="0006d08d"/>
+			<value name="ColorTable11" type="dword" data="00e5c258"/>
+			<value name="ColorTable12" type="dword" data="004b04f3"/>
+			<value name="ColorTable13" type="dword" data="00b87da8"/>
+			<value name="ColorTable14" type="dword" data="0081cccc"/>
 			<value name="ColorTable15" type="dword" data="00ffffff"/>
-			<value name="ColorTable16" type="dword" data="003f3f3f"/>
-			<value name="ColorTable17" type="dword" data="00af6464"/>
-			<value name="ColorTable18" type="dword" data="00008000"/>
-			<value name="ColorTable19" type="dword" data="00808000"/>
-			<value name="ColorTable20" type="dword" data="00232333"/>
-			<value name="ColorTable21" type="dword" data="00aa50aa"/>
-			<value name="ColorTable22" type="dword" data="0000dcdc"/>
-			<value name="ColorTable23" type="dword" data="00ccdcdc"/>
-			<value name="ColorTable24" type="dword" data="008080c0"/>
-			<value name="ColorTable25" type="dword" data="00ffafaf"/>
-			<value name="ColorTable26" type="dword" data="007f9f7f"/>
-			<value name="ColorTable27" type="dword" data="00d3d08c"/>
-			<value name="ColorTable28" type="dword" data="007071e3"/>
-			<value name="ColorTable29" type="dword" data="00c880c8"/>
-			<value name="ColorTable30" type="dword" data="00afdff0"/>
+			<value name="ColorTable16" type="dword" data="00222827"/>
+			<value name="ColorTable17" type="dword" data="009e5401"/>
+			<value name="ColorTable18" type="dword" data="0004aa74"/>
+			<value name="ColorTable19" type="dword" data="00a6831a"/>
+			<value name="ColorTable20" type="dword" data="003403a7"/>
+			<value name="ColorTable21" type="dword" data="009c5689"/>
+			<value name="ColorTable22" type="dword" data="0049b6b6"/>
+			<value name="ColorTable23" type="dword" data="00cacaca"/>
+			<value name="ColorTable24" type="dword" data="007c7c7c"/>
+			<value name="ColorTable25" type="dword" data="00f58303"/>
+			<value name="ColorTable26" type="dword" data="0006d08d"/>
+			<value name="ColorTable27" type="dword" data="00e5c258"/>
+			<value name="ColorTable28" type="dword" data="004b04f3"/>
+			<value name="ColorTable29" type="dword" data="00b87da8"/>
+			<value name="ColorTable30" type="dword" data="0081cccc"/>
 			<value name="ColorTable31" type="dword" data="00ffffff"/>
-			<value name="ExtendColors" type="hex" data="01"/>
+			<value name="ExtendColors" type="hex" data="00"/>
 			<value name="ExtendColorIdx" type="hex" data="0e"/>
 			<value name="TextColorIdx" type="hex" data="10"/>
 			<value name="BackColorIdx" type="hex" data="10"/>
@@ -114,8 +114,8 @@
 			<value name="FontItalic" type="hex" data="00"/>
 			<value name="Monospace" type="hex" data="01"/>
 			<value name="BackGround Image show" type="hex" data="01"/>
-			<value name="BackGround Image" type="string" data="C:\Dropbox\Apps\Desktoppr\IGKrUpE.jpg"/>
-			<value name="bgImageDarker" type="hex" data="66"/>
+			<value name="BackGround Image" type="string" data="C:\Dropbox\Apps\Desktoppr\722Xdcr.jpg"/>
+			<value name="bgImageDarker" type="hex" data="42"/>
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="01"/>
 			<value name="bgPluginAllowed" type="hex" data="00"/>
@@ -504,64 +504,82 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-				<key name="Tasks" modified="2013-10-22 18:39:19" build="131020">
+				<key name="Tasks" modified="2014-01-06 21:14:32" build="140104">
 				<value name="Count" type="dword" data="00000007"/>
-						<key name="Task1" modified="2013-10-22 18:39:19" build="131020">
+						<key name="Task1" modified="2014-01-06 21:14:32" build="140104">
 					<value name="Name" type="string" data="{powershell}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="&gt;*powershell.exe"/>
 					<value name="Active" type="dword" data="00000001"/>
 					<value name="Count" type="dword" data="00000001"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task2" modified="2013-10-22 18:39:19" build="131020">
+						<key name="Task2" modified="2014-01-06 21:14:32" build="140104">
 					<value name="Name" type="string" data="{vim}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="&gt;*c:\dropbox\utilities\Vim\vim74\vim.exe"/>
 					<value name="Active" type="dword" data="00000001"/>
 					<value name="Count" type="dword" data="00000001"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task3" modified="2013-10-22 18:39:20" build="131020">
+						<key name="Task3" modified="2014-01-06 21:14:33" build="140104">
 					<value name="Name" type="string" data="{far}"/>
 					<value name="GuiArgs" type="string" data="/dir &quot;c:\Program Files\farmanager&quot;"/>
 					<value name="Cmd1" type="string" data="&gt;*far.exe"/>
 					<value name="Active" type="dword" data="00000001"/>
 					<value name="Count" type="dword" data="00000001"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task4" modified="2013-10-22 18:39:20" build="131020">
+						<key name="Task4" modified="2014-01-06 21:14:33" build="140104">
 					<value name="Name" type="string" data="{msbuild}"/>
 					<value name="GuiArgs" type="string" data="/dir &quot;C:\Windows\Microsoft.NET\Framework64\v4.0.30319&quot;"/>
 					<value name="Cmd1" type="string" data="&gt;*cmd"/>
 					<value name="Active" type="dword" data="00000001"/>
 					<value name="Count" type="dword" data="00000001"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task5" modified="2013-10-22 18:39:20" build="131020">
+						<key name="Task5" modified="2014-01-06 21:14:33" build="140104">
 					<value name="Name" type="string" data="{putty}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="putty.exe -load &quot;mine&quot;"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task6" modified="2013-10-22 18:39:21" build="131020">
+						<key name="Task6" modified="2014-01-06 21:14:33" build="140104">
 					<value name="Name" type="string" data="{start}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="*&gt;powershell"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task7" modified="2013-10-22 18:39:21" build="131020">
+						<key name="Task7" modified="2014-01-06 21:14:33" build="140104">
 					<value name="Name" type="string" data="{bash}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="*&gt;c:\mingw\msys\1.0\msys.bat"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
 			</key>
-				<key name="Apps" modified="2013-10-22 18:39:21" build="131020">
+				<key name="Apps" modified="2014-01-06 21:14:33" build="140104">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-				<key name="Colors" modified="2013-10-22 18:39:21" build="131020">
+				<key name="Colors" modified="2014-01-06 21:14:33" build="140104">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
+			<value name="ProcessNewConArg" type="hex" data="01"/>
+			<value name="HighlightMouseRow" type="hex" data="00"/>
+			<value name="HighlightMouseCol" type="hex" data="00"/>
+			<value name="CTS.VkCopyFmt0" type="dword" data="00001143"/>
+			<value name="CTS.VkCopyFmt1" type="dword" data="00101143"/>
+			<value name="CTS.VkCopyFmt2" type="dword" data="00000000"/>
+			<value name="HighlightMouseSwitch" type="dword" data="00005d4c"/>
+			<value name="TransparencyInc" type="dword" data="00000000"/>
+			<value name="TransparencyDec" type="dword" data="00000000"/>
+			<value name="Key.MaximizeWidth" type="dword" data="00000000"/>
+			<value name="Key.MaximizeHeight" type="dword" data="00000000"/>
 		</key>
 	</key>
 </key>
