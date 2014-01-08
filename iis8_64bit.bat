@@ -1,0 +1,1 @@
+reg add HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\13.0\WebProjects /v Use64BitIISExpress /t REG_DWORD /d 1
