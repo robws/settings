@@ -1,0 +1,1 @@
+cmd /c mklink c:\users\gheorghe\appdata\Roaming\Mozilla\Firefox\Profiles\y92vg52e.default\gm_scripts /j /d c:\Dropbox\config\gm_scripts

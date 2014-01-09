@@ -1,0 +1,1 @@
+SqlCmd -S np:\\.\pipe\LOCALDB#A765FD41\tsql\query -E -Q "RESTORE DATABASE cucina FROM DISK='c:\cucina.bak' with move 'cucina_data' to 'c:\databases\cucina.mdf', move 'cucina_log' to 'c:\databases\cucina_log.ldf'"
