@@ -7,6 +7,10 @@
 #Hotstring EndChars `t
 
 
+;key remaps
+;Capslock::LWin
+
+
 ;path customization
 main_machine := false
 dropbox_folder := ""
@@ -26,8 +30,8 @@ else
 {
 	dropbox_folder := "c:\dropbox\"
 	Run %dropbox_folder%utilities\mouseemu\mousemu.exe
-	Run c:\Program Files (x86)\winsplit\winsplit.exe
-	Run c:\Program Files\clcl\clcl.exe            	
+	Run %dropbox_folder%utilities\winsplit\winsplit.exe
+	Run c:\Program Files (x86)\clcl\clcl.exe            	
 }
 
 ;//edit this file
@@ -43,12 +47,14 @@ else
 return
 
 
+^#F1::Run ::{645ff040-5081-101b-9f08-00aa002f954e}
 ^#F2::Run control
 ^#F3::Run control Sysdm.cpl
 ^#F4::Run control ncpa.cpl
 ^#F5::Run control appwiz.cpl
 ^#F6::Run control desk.cpl
 ^#F7::Run control admintools
+
 
 
 ^+h::
@@ -68,12 +74,6 @@ return
 }
 
 
-^#8::Run C:\Program Files (x86)\Red Gate\SQL Compare 10\RedGate.SQLDataCompare.UI.exe
-^#7::Run C:\Program Files (x86)\Red Gate\SQL Compare 10\RedGate.SQLCompare.UI.exe
-^#9::Run chrome.exe
-^#6::Run C:\Program Files (x86)\JetBrains\WebStorm 7.0\bin\webstorm.exe
-
-
 ^#s::
 {
 	IfWinExist, ConEmu
@@ -87,6 +87,27 @@ return
 }
 
 
+^#t::
+{
+	IfWinExist, TrueCrypt
+	{
+		 WinActivate  
+		 return
+	}
+	
+	Run C:\Program Files\truecrypt\truecrypt.exe
+	return
+}
+
+
+^#8::Run C:\Program Files (x86)\Red Gate\SQL Compare 10\RedGate.SQLDataCompare.UI.exe
+^#7::Run C:\Program Files (x86)\Red Gate\SQL Compare 10\RedGate.SQLCompare.UI.exe
+^#9::Run chrome.exe
+^#2::Run opera.exe
+
+^#6::Run C:\Program Files (x86)\JetBrains\WebStorm 7.0\bin\webstorm.exe
+
+
 ^#v::Run C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe /nosplash
 ^#i::Run iexplore.exe
 ^#n::Run %dropbox_folder%utilities\sublime\sublime_text.exe
@@ -94,10 +115,11 @@ return
 ^#g::Run C:\Program Files (x86)\Mozilla Firefox\firefox.exe
 ^#o::Run C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe
 ^#w::Run %dropbox_folder%utilities\foobar2000\foobar2000.exe
-^#q::Run c:\totalcmd\totalcmd64.exe
+^#q::Run c:\program files\totalcmd\totalcmd64.exe
 
 
 
+;//switch mouse pointer between monitors
 ^#+NumpadEnter::
 {
 
@@ -161,17 +183,6 @@ return
 }
 
 
-^#t::
-{
-	IfWinExist, TrueCrypt
-	{
-		 WinActivate  
-		 return
-	}
-	
-	Run C:\Program Files\truecrypt\truecrypt.exe
-	return
-}
 
 
 ;//restart explorer
@@ -183,15 +194,37 @@ return
 	return
 }
 
+
+;//restart mousemu
+^+#m::
+{
+	Run pskill mopusemu
+	Sleep 50
+	Run %dropbox_folder%utilities\mouseemu\mousemu.exe
+	return
+}
+
  
 ;search selected text on google
 ^+c::
 {
 	Send, ^c
 	Sleep 50
-	Run, http://www.google.com/search?q=%clipboard%
+	Run, https://www.google.com/search?q=%clipboard%
 	Return
 }
+
+
+;open selected text in browser
+^+v::
+{
+	Send, ^c
+	Sleep 50
+	Run "iexplore.exe" %clipboard%
+	Return
+}
+
+
 
 ;mute 
 ^+End::
@@ -217,7 +250,9 @@ return
 ;turn off monitor
 ^+#s::
 {
-	SendMessage,0x112,0xF170,2,,Program Manager
+	;Sleep 1000
+	;SendMessage,0x112,0xF170,1,,Program Manager
+	run, %dropbox_folder%utilities\nircmd cmdwait 1000 monitor off	
 	return
 }
 
@@ -256,14 +291,10 @@ return
 ;//select entire paragraph
 +^s::
 {
-
 	Send {LButton}
 	Send {LButton 2}^c
-
-    ;$first  = Send,{Shift}+{Home} + Send,{Shift}+{End} 
-    return
+	return
 }
-
 
 
 ;//always on top switchable
@@ -290,7 +321,5 @@ return
 Thanks,
 Marius
 )
-
-
 
 
