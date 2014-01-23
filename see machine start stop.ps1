@@ -1,0 +1,1 @@
+Get-WinEvent -FilterHashtable @{LogName='system'; ID=6005,6006}
