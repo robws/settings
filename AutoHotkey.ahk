@@ -7,32 +7,23 @@
 #Hotstring EndChars `t
 
 
-;key remaps
-;Capslock::LWin
-
-
 ;path customization
-main_machine := false
+main_machine := false    ;//main_machine= true is the home desktop
 dropbox_folder := ""
 
 
-if(main_machine = true)
-{
+;run different things at startup for different machines if we need them
+
+;if(main_machine = true)
+;{
 	dropbox_folder := "c:\dropbox\"
-;	Run C:\Program Files\totalcmd\totalcmd64.exe
-	Run %dropbox_folder%utilities\bugn\bugn.exe
-	Run %dropbox_folder%utilities\winsplit\winsplit.exe
-	Run %dropbox_folder%utilities\mouseemu\mousemu.exe
-	Run c:\Program Files (x86)\clcl\clcl.exe
 	Run c:\Program Files\ConEmu\conemu64.exe 
-}
-else
-{
-	dropbox_folder := "c:\dropbox\"
 	Run %dropbox_folder%utilities\mouseemu\mousemu.exe
 	Run %dropbox_folder%utilities\winsplit\winsplit.exe
 	Run c:\Program Files (x86)\clcl\clcl.exe            	
-}
+;}
+
+
 
 ;//edit this file
 #^+f12:: Edit
@@ -115,7 +106,17 @@ return
 ^#g::Run C:\Program Files (x86)\Mozilla Firefox\firefox.exe
 ^#o::Run C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe
 ^#w::Run %dropbox_folder%utilities\foobar2000\foobar2000.exe
-^#q::Run c:\program files\totalcmd\totalcmd64.exe
+^#q::
+{
+	if(main_machine = true)
+	{
+		Run %dropbox_folder%utilities\totalcmd\totalcmd64.exe /i=%dropbox_folder%utilities\totalcmd\wincmd_work.ini
+	}
+	else
+	{
+		Run %dropbox_folder%utilities\totalcmd\totalcmd64.exe /i=%dropbox_folder%utilities\totalcmd\wincmd_home.ini
+	}
+}
 
 
 
@@ -198,8 +199,8 @@ return
 ;//restart mousemu
 ^+#m::
 {
-	Run pskill mopusemu
-	Sleep 50
+	Run pskill mousemu
+	Sleep 200
 	Run %dropbox_folder%utilities\mouseemu\mousemu.exe
 	return
 }
