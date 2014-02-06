@@ -1,0 +1,1 @@
+wbAdmin start backup -backupTarget:d:\ -include:C: -allCritical -quiet
