@@ -8,7 +8,7 @@
 
 
 ;path customization
-main_machine := false    ;//main_machine= true is the home desktop
+main_machine := true    ;//main_machine= true is the home desktop
 dropbox_folder := ""
 
 
@@ -110,11 +110,11 @@ return
 {
 	if(main_machine = true)
 	{
-		Run %dropbox_folder%utilities\totalcmd\totalcmd64.exe /i=%dropbox_folder%utilities\totalcmd\wincmd_work.ini
+		Run %dropbox_folder%utilities\totalcmd\totalcmd64.exe /i=%dropbox_folder%utilities\totalcmd\wincmd_home.ini
 	}
 	else
 	{
-		Run %dropbox_folder%utilities\totalcmd\totalcmd64.exe /i=%dropbox_folder%utilities\totalcmd\wincmd_home.ini
+		Run %dropbox_folder%utilities\totalcmd\totalcmd64.exe /i=%dropbox_folder%utilities\totalcmd\wincmd_work.ini
 	}
 }
 
