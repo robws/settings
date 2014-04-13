@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2014-01-09 00:33:03" build="140106">
+		<key name=".Vanilla" modified="2014-04-13 23:13:07" build="140412">
 			<value name="ColorTable00" type="dword" data="00222827"/>
 			<value name="ColorTable01" type="dword" data="009e5401"/>
 			<value name="ColorTable02" type="dword" data="0004aa74"/>
@@ -44,7 +44,7 @@
 			<value name="ExtendFontNormalIdx" type="hex" data="01"/>
 			<value name="ExtendFontBoldIdx" type="hex" data="0c"/>
 			<value name="ExtendFontItalicIdx" type="hex" data="0d"/>
-			<value name="CursorTypeActive" type="dword" data="000332c1"/>
+			<value name="CursorTypeActive" type="dword" data="000318c1"/>
 			<value name="CursorTypeInactive" type="dword" data="00833281"/>
 			<value name="ClipboardDetectLineEnd" type="hex" data="01"/>
 			<value name="ClipboardBashMargin" type="hex" data="00"/>
@@ -80,7 +80,7 @@
 			<value name="StoreTaskbarkTasks" type="hex" data="00"/>
 			<value name="StoreTaskbarCommands" type="hex" data="00"/>
 			<value name="SaveCmdHistory" type="hex" data="01"/>
-			<value name="CmdLineHistory" type="multi"><line data="powershell"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\bugn\Config.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\Public\CV08BA~1.HTM"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\marius\DOCUME~1\WINDOW~1\MICROS~2.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\winchy.ps1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\cmdfetch\cmdfetch.bat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\cmdfetch\source.lua"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\src\SHOPKE~1\src\compile.bat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\bugn\Main.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\DOWNLO~1\2JUNE2~1.HTM"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\cmdfetch\source.lua"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\cmdfetch\SOURCE~1.LUA"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Users\marius\DOCUME~1\WINDOW~1\MICROS~2.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Users\marius\DOCUME~1\WINDOW~1\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; E:\2\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; E:\2\web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Windows\System32\Drivers\etc\hosts"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\builds\vsapi\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\projects\myprojects\site.master"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\site.master"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\oss\ExeLauncher\README.md"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\AutoHotkey.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\config\CREATE~1.BAT"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\vim\_vimrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Packages\34167JoshuaGrzybowski.Pouch_zd4k52rmwvr3j\LocalState\ItemsData.dat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Packages\sdfsdfs423458w9eqw-0e987123412341234_epyn7nz107qs8\LocalState\articles.json"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; &quot;C:\Users\klamath\AppData\Local\Packages\sdfsdfs423458w9eqw-0e987123412341234_epyn7nz107qs8\LocalState\Microsoft\Windows Store\ApiData\WindowsStoreProxy.xml&quot;"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\pnow\.hg\hgrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\packages\repositories.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\WINDOW~1\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\2\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\111111111111111\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\pg.sql"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\ossother\sqlcipher-windows\StaticLib\src\sqlite\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\ossother\3\index.html"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\ossother\1\Community.CsharpSqlite.SQLiteClient\TestDriver_src\SQLiteClientTestDriver.cs"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\DOWNLO~1\1\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\uuuuu\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\AUTOHO~1.AHK"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\devstuff\js\log.html"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\vim\_vimrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\WINBIN~1.INI"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; c:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; &quot;e:\MYDOCU~1\MYGAME~1\Heroes of Might and Magic V\Profiles\KLAMATH\user.cfg&quot;"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; E:\MYDOCU~1\hosting"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\vim.txt"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\devstuff\js\log.html"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\coolreader\epub.css"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\UTILIT~1\coolreader\epub.css"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\HARDWA~1.HTM"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\config\feeds.xml"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\web.config"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\web.config"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; c:\web.config"/><line data="&quot;&gt;*C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\web.config"/><line data="vim c:\web.config"/><line data="@vim"/><line data="vim"/><line data="cmd -cur_console:n"/></value>
+			<value name="CmdLineHistory" type="multi"><line data="far"/><line data="powershell"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\bugn\Config.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\Public\CV08BA~1.HTM"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\marius\DOCUME~1\WINDOW~1\MICROS~2.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\winchy.ps1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\cmdfetch\cmdfetch.bat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\cmdfetch\source.lua"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\src\SHOPKE~1\src\compile.bat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\bugn\Main.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\DOWNLO~1\2JUNE2~1.HTM"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\cmdfetch\source.lua"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\cmdfetch\SOURCE~1.LUA"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Users\marius\DOCUME~1\WINDOW~1\MICROS~2.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Users\marius\DOCUME~1\WINDOW~1\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; E:\2\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; E:\2\web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Windows\System32\Drivers\etc\hosts"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\builds\vsapi\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\projects\myprojects\site.master"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\site.master"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\oss\ExeLauncher\README.md"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\AutoHotkey.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\config\CREATE~1.BAT"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\vim\_vimrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Packages\34167JoshuaGrzybowski.Pouch_zd4k52rmwvr3j\LocalState\ItemsData.dat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Packages\sdfsdfs423458w9eqw-0e987123412341234_epyn7nz107qs8\LocalState\articles.json"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; &quot;C:\Users\klamath\AppData\Local\Packages\sdfsdfs423458w9eqw-0e987123412341234_epyn7nz107qs8\LocalState\Microsoft\Windows Store\ApiData\WindowsStoreProxy.xml&quot;"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\pnow\.hg\hgrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\packages\repositories.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\WINDOW~1\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\2\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\111111111111111\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\pg.sql"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\ossother\sqlcipher-windows\StaticLib\src\sqlite\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\ossother\3\index.html"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\ossother\1\Community.CsharpSqlite.SQLiteClient\TestDriver_src\SQLiteClientTestDriver.cs"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\DOWNLO~1\1\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\uuuuu\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\AUTOHO~1.AHK"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\devstuff\js\log.html"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\vim\_vimrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\WINBIN~1.INI"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; c:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; &quot;e:\MYDOCU~1\MYGAME~1\Heroes of Might and Magic V\Profiles\KLAMATH\user.cfg&quot;"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; E:\MYDOCU~1\hosting"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\vim.txt"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\devstuff\js\log.html"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\coolreader\epub.css"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\UTILIT~1\coolreader\epub.css"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\HARDWA~1.HTM"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\config\feeds.xml"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\web.config"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\web.config"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; c:\web.config"/><line data="&quot;&gt;*C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\web.config"/><line data="vim c:\web.config"/><line data="@vim"/><line data="vim"/><line data="cmd -cur_console:n"/></value>
 			<value name="SingleInstance" type="hex" data="01"/>
 			<value name="ShowHelpTooltips" type="hex" data="00"/>
 			<value name="Multi" type="hex" data="01"/>
@@ -114,8 +114,8 @@
 			<value name="FontItalic" type="hex" data="00"/>
 			<value name="Monospace" type="hex" data="01"/>
 			<value name="BackGround Image show" type="hex" data="01"/>
-			<value name="BackGround Image" type="string" data="C:\Dropbox\Apps\Desktoppr\722Xdcr.jpg"/>
-			<value name="bgImageDarker" type="hex" data="7d"/>
+			<value name="BackGround Image" type="string" data="C:\Dropbox\Apps\Desktoppr\Loaog31.jpg"/>
+			<value name="bgImageDarker" type="hex" data="7e"/>
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="01"/>
 			<value name="bgPluginAllowed" type="hex" data="00"/>
@@ -125,15 +125,15 @@
 			<value name="UserScreenTransparent" type="hex" data="00"/>
 			<value name="ColorKeyTransparent" type="hex" data="00"/>
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
-			<value name="UseCurrentSizePos" type="hex" data="00"/>
-			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd Width" type="dword" data="000000b9"/>
+			<value name="UseCurrentSizePos" type="hex" data="01"/>
+			<value name="WindowMode" type="dword" data="00000521"/>
+			<value name="ConWnd Width" type="dword" data="00000092"/>
 			<value name="ConWnd Height" type="dword" data="00000030"/>
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="ConWnd X" type="dword" data="00000000"/>
 			<value name="ConWnd Y" type="dword" data="00000000"/>
 			<value name="16bit Height" type="dword" data="00000000"/>
-			<value name="AutoSaveSizePos" type="hex" data="00"/>
+			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="QuakeAnimation" type="dword" data="0000012c"/>
@@ -148,7 +148,7 @@
 			<value name="ConsoleFontName" type="string" data="Lucida Console"/>
 			<value name="ConsoleFontWidth" type="dword" data="00000003"/>
 			<value name="ConsoleFontHeight" type="dword" data="00000005"/>
-			<value name="DefaultBufferHeight" type="dword" data="000003e8"/>
+			<value name="DefaultBufferHeight" type="dword" data="00001388"/>
 			<value name="AutoBufferHeight" type="hex" data="01"/>
 			<value name="CmdOutputCP" type="dword" data="00000000"/>
 			<value name="ComSpec.Type" type="hex" data="00"/>
@@ -504,9 +504,9 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-				<key name="Tasks" modified="2014-01-09 00:33:03" build="140106">
+				<key name="Tasks" modified="2014-04-13 23:13:08" build="140412">
 				<value name="Count" type="dword" data="00000007"/>
-						<key name="Task1" modified="2014-01-09 00:33:03" build="140106">
+						<key name="Task1" modified="2014-04-13 23:13:08" build="140412">
 					<value name="Name" type="string" data="{powershell}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="&gt;*powershell.exe"/>
@@ -514,7 +514,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task2" modified="2014-01-09 00:33:03" build="140106">
+						<key name="Task2" modified="2014-04-13 23:13:08" build="140412">
 					<value name="Name" type="string" data="{vim}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="&gt;*c:\dropbox\utilities\Vim\vim74\vim.exe"/>
@@ -522,7 +522,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task3" modified="2014-01-09 00:33:03" build="140106">
+						<key name="Task3" modified="2014-04-13 23:13:08" build="140412">
 					<value name="Name" type="string" data="{far}"/>
 					<value name="GuiArgs" type="string" data="/dir &quot;c:\Program Files\farmanager&quot;"/>
 					<value name="Cmd1" type="string" data="&gt;*far.exe"/>
@@ -530,7 +530,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task4" modified="2014-01-09 00:33:03" build="140106">
+						<key name="Task4" modified="2014-04-13 23:13:08" build="140412">
 					<value name="Name" type="string" data="{msbuild}"/>
 					<value name="GuiArgs" type="string" data="/dir &quot;C:\Windows\Microsoft.NET\Framework64\v4.0.30319&quot;"/>
 					<value name="Cmd1" type="string" data="&gt;*cmd"/>
@@ -538,7 +538,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task5" modified="2014-01-09 00:33:03" build="140106">
+						<key name="Task5" modified="2014-04-13 23:13:08" build="140412">
 					<value name="Name" type="string" data="{putty}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="putty.exe -load &quot;mine&quot;"/>
@@ -546,16 +546,17 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task6" modified="2014-01-09 00:33:03" build="140106">
+						<key name="Task6" modified="2014-04-13 23:13:08" build="140412">
 					<value name="Name" type="string" data="{start}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="*&gt;powershell"/>
-					<value name="Active" type="dword" data="00000002"/>
-					<value name="Count" type="dword" data="00000002"/>
+					<value name="Active" type="dword" data="00000003"/>
+					<value name="Count" type="dword" data="00000003"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="Cmd2" type="string" data="&gt;*c:\program files\far manager\far.exe -new_console:s"/>
+					<value name="Cmd2" type="string" data="&gt;*powershell -new_console:s50H"/>
+					<value name="Cmd3" type="string" data="&gt;*powershell -new_console:s50V"/>
 				</key>
-						<key name="Task7" modified="2014-01-09 00:33:03" build="140106">
+						<key name="Task7" modified="2014-04-13 23:13:08" build="140412">
 					<value name="Name" type="string" data="{sublime}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="*&gt;c:\dropbox\utilities\sublime\sublime_text.exe "/>
@@ -564,10 +565,10 @@
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
 			</key>
-				<key name="Apps" modified="2014-01-09 00:33:03" build="140106">
+				<key name="Apps" modified="2014-04-13 23:13:08" build="140412">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-				<key name="Colors" modified="2014-01-09 00:33:03" build="140106">
+				<key name="Colors" modified="2014-04-13 23:13:08" build="140412">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 			<value name="ProcessNewConArg" type="hex" data="01"/>
@@ -581,6 +582,12 @@
 			<value name="TransparencyDec" type="dword" data="00000000"/>
 			<value name="Key.MaximizeWidth" type="dword" data="00000000"/>
 			<value name="Key.MaximizeHeight" type="dword" data="00000000"/>
+			<value name="DefaultTerminalNewWindow" type="hex" data="00"/>
+			<value name="CTS.Intelligent" type="hex" data="01"/>
+			<value name="CTS.IntelligentExceptions" type="string" data="far|vim.exe"/>
+			<value name="StatusBar.Hide.Time" type="hex" data="01"/>
+			<value name="TaskbarProgress" type="hex" data="01"/>
+			<value name="RetardInactivePanes" type="hex" data="00"/>
 		</key>
 	</key>
 </key>
