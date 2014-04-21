@@ -20,7 +20,7 @@ dropbox_folder := ""
 	Run c:\Program Files\ConEmu\conemu64.exe 
 	Run %dropbox_folder%utilities\mouseemu\mousemu.exe
 	Run %dropbox_folder%utilities\winsplit\winsplit.exe
-	Run c:\Program Files (x86)\clcl\clcl.exe            	
+	Run %dropbox_folder%utilities\clipx\clipx.exe -p
 ;}
 
 
@@ -101,6 +101,7 @@ return
 
 ^#v::Run C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe /nosplash
 ^#i::Run iexplore.exe
+^#l::Run Run %dropbox_folder%utilities\clipx\clipx.exe -p
 ^#n::Run %dropbox_folder%utilities\sublime\sublime_text.exe
 ^#a::Run C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\Ssms.exe
 ^#g::Run C:\Program Files (x86)\Mozilla Firefox\firefox.exe
