@@ -1,6 +1,4 @@
-
-# Load posh-hg example profile
-. 'C:\oss\posh-hg\profile.example.ps1'
+Set-Alias services Get-Service
 
 
 # Load posh-git example profile
@@ -8,9 +6,7 @@
 
 
 
-$d = Get-Date
-Write-Host "Started at " $d -foreground "magenta"
-
+Write-Host "*bing* *bing*" -foreground "magenta"
 
 function DumpCommandName([string] $name)
 {
@@ -18,49 +14,11 @@ function DumpCommandName([string] $name)
 }
 
 
-
-#strictly work related stuffs
-function wu
-{
-		DumpCommandName "svn update c:\work"
-		svn update c:\work\
-}
-
-
-function wuo
-{
-		DumpCommandName "svn update c:\work"
-		svn update c:\work\
-		DumpCommandName "open vs"
-		c:\work\ssp.sln
-}
-
-
-function commitwork
-{
-	tortoiseproc /command:commit /path:"c:\work\trunk"
-}
-
-
-
-#iis express 
-function startiis
-{
-    cd "c:\program files\iis express"
-    .\iisexpress.exe /apppool:Clr4IntegratedAppPool
-}
-
-function stopiis
-{
-    taskkill /im iisexpress.exe    
-}
-
-
-
 #cli edit
 function edit([string] $path)
 {
-    far.exe /e $path
+  #  el far.exe "/e $path" /cli
+  C:\Program Files\Far Manager\far.exe /e $path
 }
 
 
@@ -70,7 +28,18 @@ function vimedit([string] $path)
 }
 
 
-function %dropbox%
+function psgrep($path, $fileType, $string)
+{
+    get-childitem $path -include $fileType -rec | select-string  $string
+}
+
+function psgrepFile($path, $fileType)
+{
+    get-childitem $path -include $fileType -rec 
+}
+
+
+function %dx
 {
     cd c:\dropbox\
 }
