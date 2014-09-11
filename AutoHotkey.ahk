@@ -8,7 +8,7 @@
 
 
 ;path customization
-main_machine := true    ;//main_machine= true is the home desktop
+main_machine := false    ;//main_machine= true is the home desktop
 dropbox_folder := ""
 
 
@@ -16,12 +16,18 @@ dropbox_folder := ""
 
 ;if(main_machine = true)
 ;{
-	dropbox_folder := "c:\dropbox\"
-	Run c:\Program Files\ConEmu\conemu64.exe 
-	Run %dropbox_folder%utilities\mouseemu\mousemu.exe
-	Run %dropbox_folder%utilities\winsplit\winsplit.exe
-	Run %dropbox_folder%utilities\clipx\clipx.exe -p
 ;}
+
+
+
+;// run at startup everywhere
+
+dropbox_folder := "c:\dropbox\"
+Run c:\Program Files\ConEmu\conemu64.exe 
+Run %dropbox_folder%utilities\mouseemu\mousemu.exe
+Run %dropbox_folder%utilities\winsplit\winsplit.exe
+Run %dropbox_folder%utilities\clipx\clipx.exe -p
+Run %dropbox_folder%utilities\virtuawin\virtuawin.exe
 
 
 
@@ -97,13 +103,15 @@ return
 ^#2::Run opera.exe
 
 ^#6::Run C:\Program Files (x86)\JetBrains\WebStorm 7.0\bin\webstorm.exe
+^#5::Run inetmgr.exe
+
 
 
 ^#v::Run C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe /nosplash
 ^#i::Run iexplore.exe
 ^#l::Run %dropbox_folder%utilities\clipx\clipx.exe -p
 ^#n::Run %dropbox_folder%utilities\sublime\sublime_text.exe
-^#a::Run C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\Ssms.exe
+^#a::Run C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\Ssms.exe
 ^#g::Run C:\Program Files (x86)\Mozilla Firefox\firefox.exe
 ^#o::Run C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe
 ^#w::Run %dropbox_folder%utilities\foobar2000\foobar2000.exe
@@ -284,14 +292,14 @@ return
 }
 
 ;//select word
-+^a::
+!+^a::
 {
 	Send, {LButton 2}^c
 	return
 }
 
 ;//select entire paragraph
-+^s::
+!+^s::
 {
 	Send {LButton}
 	Send {LButton 2}^c
