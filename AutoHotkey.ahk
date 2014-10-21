@@ -51,6 +51,7 @@ return
 ^#F5::Run control appwiz.cpl
 ^#F6::Run control desk.cpl
 ^#F7::Run control admintools
+^#F8::Run services.msc
 
 
 
