@@ -13,7 +13,6 @@
 	rstall = reset --hard HEAD
 	last = log -1 HEAD
 	dfl = diff HEAD^^
-	uov = "!git fetch --all; git reset --hard origin/master"
 [difftool "sourcetree"]
 	cmd = 'C:/Program Files (x86)/Beyond Compare 3/BComp.exe' \"$LOCAL\" \"$REMOTE\"
 [mergetool "sourcetree"]
