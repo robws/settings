@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2014-04-13 23:13:07" build="140412">
-			<value name="ColorTable00" type="dword" data="00222827"/>
-			<value name="ColorTable01" type="dword" data="009e5401"/>
-			<value name="ColorTable02" type="dword" data="0004aa74"/>
-			<value name="ColorTable03" type="dword" data="00a6831a"/>
-			<value name="ColorTable04" type="dword" data="003403a7"/>
-			<value name="ColorTable05" type="dword" data="009c5689"/>
-			<value name="ColorTable06" type="dword" data="0049b6b6"/>
-			<value name="ColorTable07" type="dword" data="00cacaca"/>
-			<value name="ColorTable08" type="dword" data="007c7c7c"/>
-			<value name="ColorTable09" type="dword" data="00f58303"/>
-			<value name="ColorTable10" type="dword" data="0006d08d"/>
-			<value name="ColorTable11" type="dword" data="00e5c258"/>
-			<value name="ColorTable12" type="dword" data="004b04f3"/>
-			<value name="ColorTable13" type="dword" data="00b87da8"/>
-			<value name="ColorTable14" type="dword" data="0081cccc"/>
+		<key name=".Vanilla" modified="2014-10-20 10:59:31" build="141016">
+			<value name="ColorTable00" type="dword" data="00000000"/>
+			<value name="ColorTable01" type="dword" data="006d533d"/>
+			<value name="ColorTable02" type="dword" data="0025655c"/>
+			<value name="ColorTable03" type="dword" data="00586038"/>
+			<value name="ColorTable04" type="dword" data="0029276a"/>
+			<value name="ColorTable05" type="dword" data="006c4b61"/>
+			<value name="ColorTable06" type="dword" data="00236273"/>
+			<value name="ColorTable07" type="dword" data="00eaeaea"/>
+			<value name="ColorTable08" type="dword" data="00969896"/>
+			<value name="ColorTable09" type="dword" data="00daa67a"/>
+			<value name="ColorTable10" type="dword" data="004acab9"/>
+			<value name="ColorTable11" type="dword" data="00b1c070"/>
+			<value name="ColorTable12" type="dword" data="00534ed5"/>
+			<value name="ColorTable13" type="dword" data="00d897c3"/>
+			<value name="ColorTable14" type="dword" data="0047c5e7"/>
 			<value name="ColorTable15" type="dword" data="00ffffff"/>
-			<value name="ColorTable16" type="dword" data="00222827"/>
-			<value name="ColorTable17" type="dword" data="009e5401"/>
-			<value name="ColorTable18" type="dword" data="0004aa74"/>
-			<value name="ColorTable19" type="dword" data="00a6831a"/>
-			<value name="ColorTable20" type="dword" data="003403a7"/>
-			<value name="ColorTable21" type="dword" data="009c5689"/>
-			<value name="ColorTable22" type="dword" data="0049b6b6"/>
-			<value name="ColorTable23" type="dword" data="00cacaca"/>
-			<value name="ColorTable24" type="dword" data="007c7c7c"/>
-			<value name="ColorTable25" type="dword" data="00f58303"/>
-			<value name="ColorTable26" type="dword" data="0006d08d"/>
-			<value name="ColorTable27" type="dword" data="00e5c258"/>
-			<value name="ColorTable28" type="dword" data="004b04f3"/>
-			<value name="ColorTable29" type="dword" data="00b87da8"/>
-			<value name="ColorTable30" type="dword" data="0081cccc"/>
+			<value name="ColorTable16" type="dword" data="00000000"/>
+			<value name="ColorTable17" type="dword" data="006d533d"/>
+			<value name="ColorTable18" type="dword" data="0025655c"/>
+			<value name="ColorTable19" type="dword" data="00586038"/>
+			<value name="ColorTable20" type="dword" data="0029276a"/>
+			<value name="ColorTable21" type="dword" data="006c4b61"/>
+			<value name="ColorTable22" type="dword" data="00236273"/>
+			<value name="ColorTable23" type="dword" data="00eaeaea"/>
+			<value name="ColorTable24" type="dword" data="00969896"/>
+			<value name="ColorTable25" type="dword" data="00daa67a"/>
+			<value name="ColorTable26" type="dword" data="004acab9"/>
+			<value name="ColorTable27" type="dword" data="00b1c070"/>
+			<value name="ColorTable28" type="dword" data="00534ed5"/>
+			<value name="ColorTable29" type="dword" data="00d897c3"/>
+			<value name="ColorTable30" type="dword" data="0047c5e7"/>
 			<value name="ColorTable31" type="dword" data="00ffffff"/>
 			<value name="ExtendColors" type="hex" data="00"/>
 			<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -44,7 +44,7 @@
 			<value name="ExtendFontNormalIdx" type="hex" data="01"/>
 			<value name="ExtendFontBoldIdx" type="hex" data="0c"/>
 			<value name="ExtendFontItalicIdx" type="hex" data="0d"/>
-			<value name="CursorTypeActive" type="dword" data="000318c1"/>
+			<value name="CursorTypeActive" type="dword" data="00031841"/>
 			<value name="CursorTypeInactive" type="dword" data="00833281"/>
 			<value name="ClipboardDetectLineEnd" type="hex" data="01"/>
 			<value name="ClipboardBashMargin" type="hex" data="00"/>
@@ -56,7 +56,7 @@
 			<value name="ClipboardClickPromptPosition" type="hex" data="00"/>
 			<value name="ClipboardDeleteLeftWord" type="hex" data="02"/>
 			<value name="TrueColorerSupport" type="hex" data="01"/>
-			<value name="FadeInactive" type="hex" data="01"/>
+			<value name="FadeInactive" type="hex" data="00"/>
 			<value name="FadeInactiveLow" type="hex" data="00"/>
 			<value name="FadeInactiveHigh" type="hex" data="d0"/>
 			<value name="ConVisible" type="hex" data="00"/>
@@ -80,14 +80,19 @@
 			<value name="StoreTaskbarkTasks" type="hex" data="00"/>
 			<value name="StoreTaskbarCommands" type="hex" data="00"/>
 			<value name="SaveCmdHistory" type="hex" data="01"/>
-			<value name="CmdLineHistory" type="multi"><line data="far"/><line data="powershell"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\bugn\Config.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\Public\CV08BA~1.HTM"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\marius\DOCUME~1\WINDOW~1\MICROS~2.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\winchy.ps1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\cmdfetch\cmdfetch.bat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\cmdfetch\source.lua"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\src\SHOPKE~1\src\compile.bat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\bugn\Main.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\DOWNLO~1\2JUNE2~1.HTM"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\cmdfetch\source.lua"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\cmdfetch\SOURCE~1.LUA"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Users\marius\DOCUME~1\WINDOW~1\MICROS~2.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Users\marius\DOCUME~1\WINDOW~1\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; E:\2\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; E:\2\web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Windows\System32\Drivers\etc\hosts"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\builds\vsapi\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\projects\myprojects\site.master"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\site.master"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\oss\ExeLauncher\README.md"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\AutoHotkey.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\config\CREATE~1.BAT"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\vim\_vimrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Packages\34167JoshuaGrzybowski.Pouch_zd4k52rmwvr3j\LocalState\ItemsData.dat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Packages\sdfsdfs423458w9eqw-0e987123412341234_epyn7nz107qs8\LocalState\articles.json"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; &quot;C:\Users\klamath\AppData\Local\Packages\sdfsdfs423458w9eqw-0e987123412341234_epyn7nz107qs8\LocalState\Microsoft\Windows Store\ApiData\WindowsStoreProxy.xml&quot;"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\pnow\.hg\hgrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\packages\repositories.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\WINDOW~1\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\2\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\111111111111111\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\pg.sql"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\ossother\sqlcipher-windows\StaticLib\src\sqlite\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\ossother\3\index.html"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\ossother\1\Community.CsharpSqlite.SQLiteClient\TestDriver_src\SQLiteClientTestDriver.cs"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\DOWNLO~1\1\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\uuuuu\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\AUTOHO~1.AHK"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\devstuff\js\log.html"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\vim\_vimrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\WINBIN~1.INI"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; c:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; &quot;e:\MYDOCU~1\MYGAME~1\Heroes of Might and Magic V\Profiles\KLAMATH\user.cfg&quot;"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; E:\MYDOCU~1\hosting"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\vim.txt"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\devstuff\js\log.html"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\coolreader\epub.css"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\UTILIT~1\coolreader\epub.css"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\HARDWA~1.HTM"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\config\feeds.xml"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\web.config"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\web.config"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; c:\web.config"/><line data="&quot;&gt;*C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\web.config"/><line data="vim c:\web.config"/><line data="@vim"/><line data="vim"/><line data="cmd -cur_console:n"/></value>
+			<value name="CmdLineHistory" type="multi"><line data="{far}"/><line data="{start}"/><line data="{powershell}"/><line data="powershell"/><line data="{ps}"/><line data="{irssi}"/><line data="{msbuild}"/><line data="{vim}"/><line data="far"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\bugn\Config.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\Public\CV08BA~1.HTM"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\marius\DOCUME~1\WINDOW~1\MICROS~2.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\winchy.ps1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\cmdfetch\cmdfetch.bat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\cmdfetch\source.lua"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\src\SHOPKE~1\src\compile.bat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\bugn\Main.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\DOWNLO~1\2JUNE2~1.HTM"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\cmdfetch\source.lua"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\cmdfetch\SOURCE~1.LUA"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Users\marius\DOCUME~1\WINDOW~1\MICROS~2.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Users\marius\DOCUME~1\WINDOW~1\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; E:\2\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; E:\2\web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Windows\System32\Drivers\etc\hosts"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\builds\vsapi\Web.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\projects\myprojects\site.master"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\site.master"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\oss\ExeLauncher\README.md"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\AutoHotkey.ahk"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\config\CREATE~1.BAT"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\UTILIT~1\vim\_vimrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Packages\34167JoshuaGrzybowski.Pouch_zd4k52rmwvr3j\LocalState\ItemsData.dat"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Packages\sdfsdfs423458w9eqw-0e987123412341234_epyn7nz107qs8\LocalState\articles.json"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; &quot;C:\Users\klamath\AppData\Local\Packages\sdfsdfs423458w9eqw-0e987123412341234_epyn7nz107qs8\LocalState\Microsoft\Windows Store\ApiData\WindowsStoreProxy.xml&quot;"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\pnow\.hg\hgrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\packages\repositories.config"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\WINDOW~1\MICROS~1.PS1"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\work2\2\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\111111111111111\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\pg.sql"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\ossother\sqlcipher-windows\StaticLib\src\sqlite\sqlite3.c"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\ossother\3\index.html"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\ossother\1\Community.CsharpSqlite.SQLiteClient\TestDriver_src\SQLiteClientTestDriver.cs"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\DOWNLO~1\1\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Users\klamath\AppData\Local\Temp\_tc\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\uuuuu\fixed_ecartus.css"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; e:\MYDOCU~1\AUTOHO~1.AHK"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; c:\Dropbox\devstuff\js\log.html"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\vim\_vimrc"/><line data="&quot;C:\dropbox\utilities\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\WINBIN~1.INI"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; c:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; &quot;e:\MYDOCU~1\MYGAME~1\Heroes of Might and Magic V\Profiles\KLAMATH\user.cfg&quot;"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; E:\MYDOCU~1\hosting"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\vim.txt"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\devstuff\js\log.html"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; C:\Dropbox\UTILIT~1\coolreader\epub.css"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\UTILIT~1\coolreader\epub.css"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\HARDWA~1.HTM"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\Dropbox\config\feeds.xml"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\web.config"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  C:\web.config"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\PROGRA~2\Vim\_vimrc"/><line data="&quot;C:\Program Files (x86)\Vim\vim73\vim.exe&quot; c:\web.config"/>	<line data="&quot;&gt;*C:\Program Files (x86)\Vim\vim73\vim.exe&quot;  c:\web.config"/>
+				<line data="vim c:\web.config"/>
+				<line data="@vim"/>
+				<line data="vim"/>
+				<line data="cmd -cur_console:n"/>
+			</value>
 			<value name="SingleInstance" type="hex" data="01"/>
 			<value name="ShowHelpTooltips" type="hex" data="00"/>
 			<value name="Multi" type="hex" data="01"/>
 			<value name="Multi.ShowButtons" type="hex" data="00"/>
 			<value name="Multi.NumberInCaption" type="hex" data="00"/>
 			<value name="Multi.CloseConfirm" type="hex" data="00"/>
-			<value name="Multi.CloseEditViewConfirm" type="hex" data="01"/>
+			<value name="Multi.CloseEditViewConfirm" type="hex" data="00"/>
 			<value name="Multi.NewConfirm" type="hex" data="00"/>
 			<value name="Multi.UseArrows" type="hex" data="00"/>
 			<value name="Multi.UseNumbers" type="hex" data="00"/>
@@ -101,7 +106,7 @@
 			<value name="Multi.SplitWidth" type="hex" data="04"/>
 			<value name="Multi.SplitHeight" type="hex" data="04"/>
 			<value name="KeyboardHooks" type="hex" data="02"/>
-			<value name="FontName" type="string" data="inconsolata"/>
+			<value name="FontName" type="string" data="Inconsolata"/>
 			<value name="FontName2" type="string" data="Lucida Console"/>
 			<value name="FontAutoSize" type="hex" data="00"/>
 			<value name="FontSize" type="dword" data="00000015"/>
@@ -114,11 +119,11 @@
 			<value name="FontItalic" type="hex" data="00"/>
 			<value name="Monospace" type="hex" data="01"/>
 			<value name="BackGround Image show" type="hex" data="01"/>
-			<value name="BackGround Image" type="string" data="C:\Dropbox\Apps\Desktoppr\Loaog31.jpg"/>
-			<value name="bgImageDarker" type="hex" data="7e"/>
+			<value name="BackGround Image" type="string" data="C:\Dropbox\Apps\Desktoppr\Jn69L9J - Imgur.jpg"/>
+			<value name="bgImageDarker" type="hex" data="8d"/>
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="01"/>
-			<value name="bgPluginAllowed" type="hex" data="00"/>
+			<value name="bgPluginAllowed" type="hex" data="02"/>
 			<value name="AlphaValue" type="hex" data="ff"/>
 			<value name="AlphaValueSeparate" type="hex" data="00"/>
 			<value name="AlphaValueInactive" type="hex" data="ff"/>
@@ -126,15 +131,15 @@
 			<value name="ColorKeyTransparent" type="hex" data="00"/>
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
-			<value name="WindowMode" type="dword" data="00000521"/>
-			<value name="ConWnd Width" type="dword" data="00000092"/>
-			<value name="ConWnd Height" type="dword" data="00000030"/>
+			<value name="WindowMode" type="dword" data="00000520"/>
+			<value name="ConWnd Width" type="dword" data="000000a7"/>
+			<value name="ConWnd Height" type="dword" data="00000037"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="dword" data="00000000"/>
+			<value name="ConWnd X" type="dword" data="fffff880"/>
 			<value name="ConWnd Y" type="dword" data="00000000"/>
 			<value name="16bit Height" type="dword" data="00000000"/>
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
-			<value name="IntegralSize" type="hex" data="00"/>
+			<value name="IntegralSize" type="hex" data="01"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="QuakeAnimation" type="dword" data="0000012c"/>
 			<value name="HideCaption" type="hex" data="00"/>
@@ -254,7 +259,7 @@
 			<value name="StatusBar.Hide.Proc" type="hex" data="00"/>
 			<value name="StatusBar.Hide.Title" type="hex" data="01"/>
 			<value name="StatusBar.Hide.Resize" type="hex" data="00"/>
-			<value name="Tabs" type="hex" data="01"/>
+			<value name="Tabs" type="hex" data="00"/>
 			<value name="TabsLocation" type="hex" data="01"/>
 			<value name="TabIcons" type="hex" data="01"/>
 			<value name="OneTabPerGroup" type="hex" data="00"/>
@@ -269,11 +274,11 @@
 			<value name="TabCloseMacro" type="string" data=""/>
 			<value name="TabFontFace" type="string" data="tahoma"/>
 			<value name="TabFontCharSet" type="dword" data="00000000"/>
-			<value name="TabFontHeight" type="dword" data="00000010"/>
+			<value name="TabFontHeight" type="dword" data="0000000d"/>
 			<value name="SaveAllEditors" type="string" data=""/>
 			<value name="ToolbarAddSpace" type="dword" data="00000000"/>
 			<value name="TabConsole" type="string" data="%s"/>
-			<value name="TabSkipWords" type="string" data="Administrator:|Администратор:"/>
+			<value name="TabSkipWords" type="string" data="Administrator:|Администратор:|Windows"/>
 			<value name="TabPanels" type="string" data="&lt;%c&gt; %s"/>
 			<value name="TabEditor" type="string" data="&lt;%c.%i&gt;{%s}"/>
 			<value name="TabEditorModified" type="string" data="&lt;%c.%i&gt;[%s] *"/>
@@ -351,20 +356,20 @@
 			<value name="Multi.Modifier" type="dword" data="0000005b"/>
 			<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
 			<value name="KeyMacroVersion" type="hex" data="02"/>
-			<value name="MinimizeRestore" type="dword" data="80808000"/>
+			<value name="MinimizeRestore" type="dword" data="00000000"/>
 			<value name="MinimizeRestore2" type="dword" data="00000000"/>
-			<value name="GlobalRestore" type="dword" data="80808000"/>
-			<value name="ForcedFullScreen" type="dword" data="80808000"/>
+			<value name="GlobalRestore" type="dword" data="00000000"/>
+			<value name="ForcedFullScreen" type="dword" data="00000000"/>
 			<value name="SwitchGuiFocus" type="dword" data="00000000"/>
-			<value name="SetFocusGui" type="dword" data="12111053"/>
+			<value name="SetFocusGui" type="dword" data="10121153"/>
 			<value name="SetFocusChild" type="dword" data="00000000"/>
 			<value name="ChildSystemMenu" type="dword" data="00000000"/>
 			<value name="Multi.NewSplitV" type="dword" data="0010114f"/>
 			<value name="Multi.NewSplitH" type="dword" data="00101145"/>
-			<value name="Multi.SplitSizeVU" type="dword" data="12101126"/>
-			<value name="Multi.SplitSizeVD" type="dword" data="12101128"/>
-			<value name="Multi.SplitSizeHL" type="dword" data="12101125"/>
-			<value name="Multi.SplitSizeHR" type="dword" data="12101127"/>
+			<value name="Multi.SplitSizeVU" type="dword" data="10121126"/>
+			<value name="Multi.SplitSizeVD" type="dword" data="10121128"/>
+			<value name="Multi.SplitSizeHL" type="dword" data="10121125"/>
+			<value name="Multi.SplitSizeHR" type="dword" data="10121127"/>
 			<value name="Key.TabPane1" type="dword" data="a012114e"/>
 			<value name="Key.TabPane2" type="dword" data="00105d09"/>
 			<value name="Multi.SplitFocusU" type="dword" data="00005d26"/>
@@ -395,8 +400,8 @@
 			<value name="Multi.MoveLeft" type="dword" data="00125b25"/>
 			<value name="Multi.MoveRight" type="dword" data="00125b27"/>
 			<value name="Multi.CmdKey" type="dword" data="00005b58"/>
-			<value name="CTS.VkBlockStart" type="dword" data="00005b00"/>
-			<value name="CTS.VkTextStart" type="dword" data="1211105a"/>
+			<value name="CTS.VkBlockStart" type="dword" data="10121141"/>
+			<value name="CTS.VkTextStart" type="dword" data="10121158"/>
 			<value name="CTS.VkCopyAll" type="dword" data="00000000"/>
 			<value name="Multi.ShowTabsList" type="dword" data="8080807b"/>
 			<value name="Multi.ShowTabsList2" type="dword" data="00005d7b"/>
@@ -504,9 +509,9 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-				<key name="Tasks" modified="2014-04-13 23:13:08" build="140412">
-				<value name="Count" type="dword" data="00000007"/>
-						<key name="Task1" modified="2014-04-13 23:13:08" build="140412">
+				<key name="Tasks" modified="2014-10-20 10:59:31" build="141016">
+				<value name="Count" type="dword" data="00000008"/>
+						<key name="Task1" modified="2014-10-20 10:59:31" build="141016">
 					<value name="Name" type="string" data="{powershell}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="&gt;*powershell.exe"/>
@@ -514,7 +519,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task2" modified="2014-04-13 23:13:08" build="140412">
+						<key name="Task2" modified="2014-10-20 10:59:31" build="141016">
 					<value name="Name" type="string" data="{vim}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="&gt;*c:\dropbox\utilities\Vim\vim74\vim.exe"/>
@@ -522,7 +527,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task3" modified="2014-04-13 23:13:08" build="140412">
+						<key name="Task3" modified="2014-10-20 10:59:31" build="141016">
 					<value name="Name" type="string" data="{far}"/>
 					<value name="GuiArgs" type="string" data="/dir &quot;c:\Program Files\farmanager&quot;"/>
 					<value name="Cmd1" type="string" data="&gt;*far.exe"/>
@@ -530,15 +535,15 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task4" modified="2014-04-13 23:13:08" build="140412">
+						<key name="Task4" modified="2014-10-20 10:59:31" build="141016">
 					<value name="Name" type="string" data="{msbuild}"/>
 					<value name="GuiArgs" type="string" data="/dir &quot;C:\Windows\Microsoft.NET\Framework64\v4.0.30319&quot;"/>
 					<value name="Cmd1" type="string" data="&gt;*cmd"/>
 					<value name="Active" type="dword" data="00000001"/>
 					<value name="Count" type="dword" data="00000001"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="Hotkey" type="dword" data="10121142"/>
 				</key>
-						<key name="Task5" modified="2014-04-13 23:13:08" build="140412">
+						<key name="Task5" modified="2014-10-20 10:59:31" build="141016">
 					<value name="Name" type="string" data="{putty}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="putty.exe -load &quot;mine&quot;"/>
@@ -546,17 +551,17 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
-						<key name="Task6" modified="2014-04-13 23:13:08" build="140412">
+						<key name="Task6" modified="2014-10-20 10:59:31" build="141016">
 					<value name="Name" type="string" data="{start}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="*&gt;powershell"/>
 					<value name="Active" type="dword" data="00000003"/>
 					<value name="Count" type="dword" data="00000003"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="Cmd2" type="string" data="&gt;*powershell -new_console:s50H"/>
+					<value name="Cmd2" type="string" data="&gt;*powershell -new_console:s60H"/>
 					<value name="Cmd3" type="string" data="&gt;*powershell -new_console:s50V"/>
 				</key>
-						<key name="Task7" modified="2014-04-13 23:13:08" build="140412">
+						<key name="Task7" modified="2014-10-20 10:59:31" build="141016">
 					<value name="Name" type="string" data="{sublime}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="*&gt;c:\dropbox\utilities\sublime\sublime_text.exe "/>
@@ -564,11 +569,19 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
+				<key name="Task8" modified="2014-10-20 10:59:31" build="141016">
+					<value name="Name" type="string" data="{irssi}"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data="/dir &quot;c:\dropbox\utilities\irssi&quot;"/>
+					<value name="Cmd1" type="string" data="*&gt;c:\dropbox\utilities\irssi\irssi-cmd.bat"/>
+					<value name="Active" type="dword" data="00000000"/>
+					<value name="Count" type="dword" data="00000001"/>
+				</key>
 			</key>
-				<key name="Apps" modified="2014-04-13 23:13:08" build="140412">
+				<key name="Apps" modified="2014-10-20 10:59:31" build="141016">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-				<key name="Colors" modified="2014-04-13 23:13:08" build="140412">
+				<key name="Colors" modified="2014-10-20 10:59:31" build="141016">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 			<value name="ProcessNewConArg" type="hex" data="01"/>
@@ -588,6 +601,22 @@
 			<value name="StatusBar.Hide.Time" type="hex" data="01"/>
 			<value name="TaskbarProgress" type="hex" data="01"/>
 			<value name="RetardInactivePanes" type="hex" data="00"/>
+			<value name="AnsiLog" type="hex" data="00"/>
+			<value name="AnsiLogPath" type="string" data="%ConEmuDir%\Logs\"/>
+			<value name="DefaultTerminalAgressive" type="hex" data="01"/>
+			<value name="Multi.DupConfirm" type="hex" data="01"/>
+			<value name="Multi.DetachConfirm" type="hex" data="01"/>
+			<value name="FontUseDpi" type="hex" data="01"/>
+			<value name="FontUseUnits" type="hex" data="00"/>
+			<value name="StatusBar.Hide.KeyHooks" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Zoom" type="hex" data="01"/>
+			<value name="StatusBar.Hide.Dpi" type="hex" data="01"/>
+			<value name="Key.BufHfPgUp" type="dword" data="00005d21"/>
+			<value name="Key.BufHfPgDn" type="dword" data="00005d22"/>
+			<value name="Key.BufTop" type="dword" data="00005d24"/>
+			<value name="Key.BufBottom" type="dword" data="00005d23"/>
+			<value name="Key.BufCursor" type="dword" data="00005d08"/>
+			<value name="FontOriginalKey" type="dword" data="00001104"/>
 		</key>
 	</key>
 </key>

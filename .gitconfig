@@ -2,7 +2,7 @@
 	name = Marius Gheorghe
 	email = gmarius@gmail.com
 [push]
-	default = simple
+	default = matching
 
 [alias]
     st = status
