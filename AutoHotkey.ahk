@@ -8,7 +8,7 @@
 
 
 ;path customization
-main_machine := false    ;//main_machine= true is the home desktop
+main_machine := true    ;//main_machine= true is the home desktop
 dropbox_folder := ""
 
 
@@ -51,6 +51,7 @@ return
 ^#F5::Run control appwiz.cpl
 ^#F6::Run control desk.cpl
 ^#F7::Run control admintools
+^#F8::Run services.msc
 
 
 
@@ -103,7 +104,7 @@ return
 ^#2::Run opera.exe
 
 ^#6::Run C:\Program Files (x86)\JetBrains\WebStorm 7.0\bin\webstorm.exe
-^#5::Run inetmgr.exe
+^#5::Run c:\windows\system32\inetsrv\inetmgr.exe
 
 
 
@@ -323,6 +324,24 @@ return
     if not OnTop
       WindowTitle:=WindowTitle . " - (Pinned)"
 
+}
+
+
+
+;//opacity
+^+#o:: 
+{
+	WinGet, currentTransparency, Transparent, A 
+	if (currentTransparency = 150) 
+	{
+	 WinSet, Transparent, OFF, A 
+	}
+	else
+	 {
+		 WinSet, Transparent, 150, A 
+	}
+	
+ return
 }
 
 ;//hotstrings
