@@ -21,14 +21,14 @@ dropbox_folder := ""
 
 
 ;// run at startup everywhere
-
 dropbox_folder := "c:\dropbox\"
 Run c:\Program Files\ConEmu\conemu64.exe 
 Run %dropbox_folder%utilities\mouseemu\mousemu.exe
 Run %dropbox_folder%utilities\winsplit\winsplit.exe
 Run %dropbox_folder%utilities\clipx\clipx.exe -p
 Run %dropbox_folder%utilities\virtuawin\virtuawin.exe
-
+Run %dropbox_folder%utilities\ddm\ddmm.exe
+Run el sumatrapdf
 
 
 ;//edit this file
@@ -86,13 +86,13 @@ return
 
 ^#t::
 {
-	IfWinExist, TrueCrypt
+	IfWinExist, VeraCrypt
 	{
 		 WinActivate  
 		 return
 	}
 	
-	Run C:\Program Files\truecrypt\truecrypt.exe
+	Run C:\Program Files\veracrypt\veracrypt.exe
 	return
 }
 
@@ -125,71 +125,7 @@ return
 	{
 		Run %dropbox_folder%utilities\totalcmd\totalcmd64.exe /i=%dropbox_folder%utilities\totalcmd\wincmd_work.ini
 	}
-}
-
-
-
-;//switch mouse pointer between monitors
-^#+NumpadEnter::
-{
-
-	CoordMode, Mouse, Screen
-
-	SysGet, monitorCount, MonitorCount
-	MouseGetPos, x, y
-
-	Monitors := Object()
-
-	If (monitorCount < 2 || monitorCount > 2)
-        return
-
-	Loop, %monitorCount% {
-        SysGet, monitor, Monitor, %A_Index%
-
-        Monitors[A_Index, 0] := monitorLeft
-        Monitors[A_Index, 1] := monitorRight
-        Monitors[A_Index, 2] := monitorRight - monitorLeft
-        Monitors[A_Index, 3] := monitorBottom - monitorTop
-	}
-
-	If (Monitors[1][0] < Monitors[2][0]) {
-        primaryMonitorLeft := Monitors[1][0]
-        primaryMonitorRight := Monitors[1][1]
-        targetMonitorX := Monitors[1][2]
-        targetMonitorY := Monitors[1][3]
-        sourceMonitorX := Monitors[2][2]
-        sourceMonitorY := Monitors[2][3]
-	} Else {
-        primaryMonitorLeft := Monitors[2][0]
-        primaryMonitorRight := Monitors[2][1]
-        targetMonitorX := Monitors[2][2]
-        targetMonitorY := Monitors[2][3]
-        sourceMonitorX := Monitors[1][2]
-        sourceMonitorY := Monitors[1][3]
-	}
-
-	If (primaryMonitorLeft < 0) {
-        If (x < primaryMonitorRight) {
-                MouseMove, (sourceMonitorX / 2), (sourceMonitorY / 2)
-        } Else {
-                MouseMove, -(targetMonitorX / 2), (targetMonitorY / 2)
-        }
-		MouseGetPos,,, hwnd 
-		WinActivate, ahk_id %hwnd%
-	} Else {
-        If (x < primaryMonitorRight) {
-                MouseMove, (targetMonitorX + (sourceMonitorX / 2)), (sourceMonitorY / 2)
-        } Else {
-                MouseMove, (targetMonitorX / 2), (targetMonitorY / 2)
-        }
-
-		MouseGetPos,,, hwnd 
-		WinActivate, ahk_id %hwnd%	
-	}
-
-
-	return
-
+	Return
 }
 
 
@@ -325,11 +261,53 @@ return
 
 }
 
+
+;//empty recycle bin
+^+#1::
+{
+	FileRecycleEmpty, C:\ 
+	FileRecycleEmpty, D:\ 
+	Return
+}
+
+
+
 ;//hotstrings
 ::tks::
 (
 Thanks,
 Marius
 )
+
+
+
+
+;//work strings
+::ns::
+(
+	net start "significant signanywhere"
+)
+
+::nsp::
+(
+	net stop "significant signanywhere"
+)
+
+::fs::
+(
+ipconfig /flushdns
+)
+
+::iss::
+(
+installutil -i c:\flow\NotificationsShell.WindowsService\bin\x64\Debug\signaservice.exe
+)
+
+::uss::
+(
+installutil -u c:\flow\NotificationsShell.WindowsService\bin\x64\Debug\signaservice.exe
+)
+
+
 
 
