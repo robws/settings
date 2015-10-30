@@ -26,9 +26,8 @@ Run c:\Program Files\ConEmu\conemu64.exe
 Run %dropbox_folder%utilities\mouseemu\mousemu.exe
 Run %dropbox_folder%utilities\winsplit\winsplit.exe
 Run %dropbox_folder%utilities\clipx\clipx.exe -p
-Run %dropbox_folder%utilities\virtuawin\virtuawin.exe
 Run %dropbox_folder%utilities\ddm\ddmm.exe
-Run el sumatrapdf
+
 
 
 ;//edit this file
@@ -97,19 +96,20 @@ return
 }
 
 
-^#8::Run C:\Program Files (x86)\Red Gate\SQL Compare 10\RedGate.SQLDataCompare.UI.exe
-^#7::Run C:\Program Files (x86)\Red Gate\SQL Compare 10\RedGate.SQLCompare.UI.exe
+^#8::Run C:\Program Files (x86)\Firefox Developer Edition\firefox.exe
 ^#9::Run chrome.exe
 ^#2::Run opera.exe
-
-^#6::Run C:\Program Files (x86)\JetBrains\WebStorm 7.0\bin\webstorm.exe
 ^#5::Run inetmgr.exe
 
 
 
-^#v::Run C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe /nosplash
-^#i::Run iexplore.exe
+^#z::Run C:\Program Files (x86)\Microsoft VS Code\Code.exe
+
+
+^#v::Run C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe /nosplash
+^#i::Run powershell.exe "start microsoft-edge:"
 ^#l::Run %dropbox_folder%utilities\clipx\clipx.exe -p
+^#r::Run %dropbox_folder%utilities\terminals\terminals.exe
 ^#n::Run %dropbox_folder%utilities\sublime\sublime_text.exe
 ^#a::Run C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\Ssms.exe
 ^#g::Run C:\Program Files (x86)\Mozilla Firefox\firefox.exe
@@ -128,6 +128,14 @@ return
 	Return
 }
 
+
+
+;//restart explorer
+^+#d::
+{
+	Run ipconfig /flushdns
+	return
+}
 
 
 
@@ -285,12 +293,12 @@ Marius
 ;//work strings
 ::ns::
 (
-	net start "significant signanywhere"
+net start "significant signanywhere"
 )
 
 ::nsp::
 (
-	net stop "significant signanywhere"
+net stop "significant signanywhere"
 )
 
 ::fs::
@@ -306,6 +314,11 @@ installutil -i c:\flow\NotificationsShell.WindowsService\bin\x64\Debug\signaserv
 ::uss::
 (
 installutil -u c:\flow\NotificationsShell.WindowsService\bin\x64\Debug\signaservice.exe
+)
+
+::fuckdns::
+(
+ipconfig /flushdns
 )
 
 
