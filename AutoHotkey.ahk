@@ -112,7 +112,7 @@ return
 ^#r::Run %dropbox_folder%utilities\terminals\terminals.exe
 ^#n::Run %dropbox_folder%utilities\sublime\sublime_text.exe
 ^#a::Run C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\Ssms.exe
-^#g::Run C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+^#g::Run C:\Program Files\Mozilla Firefox\firefox.exe
 ^#o::Run C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe
 ^#w::Run %dropbox_folder%utilities\foobar2000\foobar2000.exe
 ^#q::
