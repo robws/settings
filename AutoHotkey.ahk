@@ -14,18 +14,12 @@ dropbox_folder := ""
 
 ;run different things at startup for different machines if we need them
 
-;if(main_machine = true)
-;{
-;}
-
-
-
 ;// run at startup everywhere
 dropbox_folder := "c:\dropbox\"
 Run c:\Program Files\ConEmu\conemu64.exe 
 Run %dropbox_folder%utilities\mouseemu\mousemu.exe
 Run %dropbox_folder%utilities\winsplit\winsplit.exe
-Run %dropbox_folder%utilities\clipx\clipx.exe -p
+Run %dropbox_folder%utilities\clipx\clipx.exe p
 Run %dropbox_folder%utilities\ddm\ddmm.exe
 
 
