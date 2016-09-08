@@ -12,15 +12,17 @@ main_machine := false    ;//main_machine= true is the home desktop
 dropbox_folder := ""
 
 
-;run different things at startup for different machines if we need them
 
 ;// run at startup everywhere
 dropbox_folder := "c:\dropbox\"
 Run c:\Program Files\ConEmu\conemu64.exe 
 Run %dropbox_folder%utilities\mouseemu\mousemu.exe
 Run %dropbox_folder%utilities\winsplit\winsplit.exe
-Run %dropbox_folder%utilities\clipx\clipx.exe p
+Run %dropbox_folder%utilities\arsclip\arsclip.exe
 Run %dropbox_folder%utilities\ddm\ddmm.exe
+Run %dropbox_folder%utilities\pixie.exe
+Run C:\Program Files (x86)\Skype\Phone\Skype.exe
+
 
 
 
@@ -93,19 +95,17 @@ return
 ^#8::Run C:\Program Files (x86)\Firefox Developer Edition\firefox.exe
 ^#9::Run chrome.exe
 ^#2::Run opera.exe
+^#3::Run vivaldi.exe
 ^#5::Run inetmgr.exe
 
 
-
 ^#z::Run C:\Program Files (x86)\Microsoft VS Code\Code.exe
-
-
 ^#v::Run C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe /nosplash
 ^#i::Run powershell.exe "start microsoft-edge:"
-^#l::Run %dropbox_folder%utilities\clipx\clipx.exe -p
+^#l::Run c:\program files\everything\everything.exe
 ^#r::Run %dropbox_folder%utilities\terminals\terminals.exe
-^#n::Run %dropbox_folder%utilities\sublime\sublime_text.exe
-^#a::Run C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\Ssms.exe
+^#::Run %dropbox_folder%utilities\notepad2.exe
+^#a::Run C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe
 ^#g::Run C:\Program Files\Mozilla Firefox\firefox.exe
 ^#o::Run C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe
 ^#w::Run %dropbox_folder%utilities\foobar2000\foobar2000.exe
@@ -121,16 +121,6 @@ return
 	}
 	Return
 }
-
-
-
-;//restart explorer
-^+#d::
-{
-	Run ipconfig /flushdns
-	return
-}
-
 
 
 ;//restart explorer
@@ -285,36 +275,8 @@ Marius
 
 
 ;//work strings
-::ns::
-(
-net start "significant signanywhere"
-)
-
-::nsp::
-(
-net stop "significant signanywhere"
-)
-
 ::fs::
 (
 ipconfig /flushdns
 )
-
-::iss::
-(
-installutil -i c:\flow\NotificationsShell.WindowsService\bin\x64\Debug\signaservice.exe
-)
-
-::uss::
-(
-installutil -u c:\flow\NotificationsShell.WindowsService\bin\x64\Debug\signaservice.exe
-)
-
-::fuckdns::
-(
-ipconfig /flushdns
-)
-
-
-
 
