@@ -97,6 +97,8 @@ return
 ^#2::Run opera.exe
 ^#3::Run vivaldi.exe
 ^#5::Run inetmgr.exe
+^#6::Run %dropbox_folder%utilities\database\database4.exe
+
 
 
 ^#z::Run C:\Program Files (x86)\Microsoft VS Code\Code.exe
@@ -104,7 +106,7 @@ return
 ^#i::Run powershell.exe "start microsoft-edge:"
 ^#l::Run c:\program files\everything\everything.exe
 ^#r::Run %dropbox_folder%utilities\terminals\terminals.exe
-^#::Run %dropbox_folder%utilities\notepad2.exe
+^#n::Run %dropbox_folder%utilities\notepad2.exe
 ^#a::Run C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe
 ^#g::Run C:\Program Files\Mozilla Firefox\firefox.exe
 ^#o::Run C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe
