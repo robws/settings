@@ -1,45 +1,30 @@
-Set-Alias services Get-Service
 
+#alias for ls
+Set-Alias -Name ls -Value PowerLS -Option AllScope
+#Set-Alias -Name tp -Value Get-Process | select ProcessName, CPU |  where CPU -gt 10 | Format-List
 
-# Load posh-git example profile
-. 'C:\oss\posh-git\profile.example.ps1'
+function prompt{
+  "r00t@theMatriX [" + (Resolve-Path .\).Path  + "]>"
+ }
 
+#explorer for current path
+Function e{
+    ii .
+}
 
+function Quote-String { "$args" }
+function Quote-List { $args }
+Set-Alias qs Quote-String
+Set-Alias ql Quote-List
 
-Write-Host "*bing* *bing*" -foreground "magenta"
-
-function DumpCommandName([string] $name)
+function cleanasptemp()
 {
-    Write-Host("Running " + $name) -foreground "magenta"
+  Remove-Item -Path "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\*.*" -Force
 }
 
 
-#cli edit
-function edit([string] $path)
-{
-  #  el far.exe "/e $path" /cli
-  C:\Program Files\Far Manager\far.exe /e $path
-}
-
-
-function vimedit([string] $path)
-{
-    c:\dropbox\utilities\vim\vim74\vim.exe $path
-}
-
-
-function psgrep($path, $fileType, $string)
-{
-    get-childitem $path -include $fileType -rec | select-string  $string
-}
-
-function psgrepFile($path, $fileType)
-{
-    get-childitem $path -include $fileType -rec 
-}
-
-
-function %dx
-{
-    cd c:\dropbox\
+# Chocolatey profile
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
 }

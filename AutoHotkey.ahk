@@ -8,9 +8,8 @@
 
 
 ;path customization
-main_machine := false    ;//main_machine= true is the home desktop
+work_machine := true  
 dropbox_folder := ""
-
 
 
 ;// run at startup everywhere
@@ -21,7 +20,10 @@ Run %dropbox_folder%utilities\winsplit\winsplit.exe
 Run %dropbox_folder%utilities\arsclip\arsclip.exe
 Run %dropbox_folder%utilities\ddm\ddmm.exe
 Run %dropbox_folder%utilities\pixie.exe
+if work_machine
+{
 Run C:\Program Files (x86)\Skype\Phone\Skype.exe
+}
 
 
 
