@@ -1,0 +1,22 @@
+account - cghostsoft@hotmail.com    
+addons :
+-hide main menu
+-attach to next
+-code metrices
+-disable mouse wheel zoom
+-editor enhancements
+-glyphfriend 2015
+-kyuubackground
+-mouse navigation
+-multiedit mode
+-open command line
+-smooth caret
+-smmoth scroll
+-tabsanity
+-suggested extensions
+-visual studio spell checker
+-vscoloroutput
+-webcompiler
+-web essentials
+
+
