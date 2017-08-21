@@ -1,9 +1,3 @@
-[user]
-	name = Marius Gheorghe
-	email = gmarius@gmail.com
-[push]
-	default = matching
-
 [alias]
     st = status
 	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
@@ -13,8 +7,3 @@
 	rstall = reset --hard HEAD
 	last = log -1 HEAD
 	dfl = diff HEAD^^
-[difftool "sourcetree"]
-	cmd = 'C:/Program Files (x86)/Beyond Compare 3/BComp.exe' \"$LOCAL\" \"$REMOTE\"
-[mergetool "sourcetree"]
-	cmd = 'C:/Program Files (x86)/Beyond Compare 3/BComp.exe' \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
-	trustExitCode = true
