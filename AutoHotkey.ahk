@@ -23,6 +23,19 @@ if work_machine
 	Run C:\Program Files (x86)\Skype\Phone\Skype.exe
 }
 
+
+^!f12:: Run nircmd setdefaultsounddevice "Speakers"
+
+^!f11::
+{
+ Run nircmd setdefaultsounddevice "LGULTRAWIDE"
+ Run nircmd setdefaultsounddevice "LG ULTRAWIDE-4"
+ Run nircmd setdefaultsounddevice "LG ULTRAWIDE-0"
+ Return		
+}
+
+
+
 ;//edit this file
 #^+f12:: Edit
 
@@ -102,7 +115,6 @@ return
 ^#o::Run C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe
 ^#w::Run %dropbox_folder%utilities\foobar2000\foobar2000.exe
 ^#r::Run y:\terminals\terminals.exe
-
 
 ^#q::
 {
