@@ -6,8 +6,6 @@
 ;set hotstrings to work only with TAB
 #Hotstring EndChars `t
 
-
-;customizations
 work_machine := true  
 dropbox_folder := "c:\dropbox\"
 
@@ -24,6 +22,19 @@ if work_machine
 }
 
 
+;//maximize current window
+^+!space:: 
+{
+	WinGetPos, winWidth, winHeight, , , A  ; "A" to get the active window's pos.
+	if ( winWidth == -8 and winHeight == -8) {
+	WinRestore, A
+	} else
+	{
+	WinMaximize, A
+	}
+	return
+}
+
 ^!f12:: Run nircmd setdefaultsounddevice "Speakers"
 
 ^!f11::
@@ -33,7 +44,6 @@ if work_machine
  Run nircmd setdefaultsounddevice "LG ULTRAWIDE-0"
  Return		
 }
-
 
 
 ;//edit this file
@@ -57,7 +67,7 @@ return
 ^#F6::Run control desk.cpl
 ^#F7::Run control admintools
 
-
+;//hide taskbar
 ^+h::
 {	
 
@@ -108,13 +118,13 @@ return
 ^#6::Run %dropbox_folder%utilities\database\database4.exe
 
 ^#a::Run C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Ssms.exe
-^#z::Run C:\Program Files (x86)\Microsoft VS Code\Code.exe
+^#z::Run C:\Program Files\Microsoft VS Code\Code.exe
 ^#v::Run C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe /nosplash
 ^#i::Run powershell.exe "start microsoft-edge:"
 ^#g::Run C:\Program Files\Mozilla Firefox\firefox.exe
-^#o::Run C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe
 ^#w::Run %dropbox_folder%utilities\foobar2000\foobar2000.exe
 ^#r::Run y:\terminals\terminals.exe
+^#o::Run y:\ThunderbirdPortable\thunderbirdPortable.exe
 
 ^#q::
 {
@@ -176,8 +186,6 @@ return
 ;turn off monitor
 ^+#s::
 {
-	;Sleep 1000
-	;SendMessage,0x112,0xF170,1,,Program Manager
 	run, %dropbox_folder%utilities\nircmd cmdwait 1000 monitor off	
 	return
 }
